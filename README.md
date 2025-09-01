@@ -3,6 +3,9 @@ This program utilizes JavaScript in order to visualize sorting algorithms and th
 
 **-= FILE CONTENTS: =-**
 script.js: Contains all functions utilized for visualizing and animating the algorithms.
+
 algorithms.js: Contains a collection of sorting funtions used in this program.
+
 index.html: Main page for frontend / UI
+
 style.css: Used for styling UI
