@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Sorting Visualizer</h1>
+
+    <div class="controls">
+        <input type="text" id="arrayInput" placeholder="Enter numbers">
+        <button id="submitArrayBtn">Submit Array</button>
+        <button id="shuffleBtn">Shuffle Array</button>
+        <button id="startBtn">Start Sorting</button>
+        <select id="algorithmSelect">
+            <option value="bubble">Bubble Sort</option>
+            <option value="selection">Selection Sort</option>
+            <option value="insertion">Insertion Sort</option>
+        </select>
+        <label>Speed: <input type="range" id="speedSlider" min="1" max="50" value="25"></label>
+    </div>
+
+    <div id="arrayContainer"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
